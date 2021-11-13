@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Builder;
 
 namespace HelloLogging.IOC.ExceptionLog
 {
-    public static class ExceptionLogStartuoHelper
+    public static class ExceptionLogStartupHelper
     {
         public static IApplicationBuilder UseExceptionLog(this IApplicationBuilder builder)
         {
